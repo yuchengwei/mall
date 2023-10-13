@@ -121,7 +121,7 @@ mall
 
 ##### 业务架构图
 
-![业务架构图](document/resource/re_mall_business_arch.jpg)
+![业务架构图](http://img.macrozheng.com/mall/project/re_mall_business_arch.jpg)
 
 #### 模块介绍
 
@@ -168,7 +168,7 @@ mall
 | 工具          | 版本号 | 下载                                                         |
 | ------------- | ------ | ------------------------------------------------------------ |
 | JDK           | 1.8    | https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html |
-| Mysql         | 5.7    | https://www.mysql.com/                                       |
+| MySQL         | 5.7    | https://www.mysql.com/                                       |
 | Redis         | 7.0    | https://redis.io/download                                    |
 | MongoDB       | 5.0    | https://www.mongodb.com/download-center                      |
 | RabbitMQ      | 3.10.5 | http://www.rabbitmq.com/download.html                        |
@@ -182,14 +182,13 @@ mall
 > Windows环境部署
 
 - Windows环境搭建请参考：[mall在Windows环境下的部署](https://www.macrozheng.com/mall/deploy/mall_deploy_windows.html);
-- 注意：只启动mall-admin,仅需安装Mysql、Redis即可;
+- 注意：如果只启动`mall-admin`模块，仅需安装MySQL、Redis即可;
 - 克隆`mall-admin-web`项目，并导入到IDEA中完成编译：[前端项目地址](https://github.com/macrozheng/mall-admin-web);
 - `mall-admin-web`项目的安装及部署请参考：[mall前端项目的安装与部署](https://www.macrozheng.com/mall/deploy/mall_deploy_web.html) 。
 
 > Docker环境部署
 
 - 使用虚拟机安装CentOS7.6请参考：[虚拟机安装及使用Linux，看这一篇就够了](https://www.macrozheng.com/tool/linux_install.html);
-- Docker环境的安装请参考：[开发者必备Docker命令](https://www.macrozheng.com/mall/reference/linux_command.html);
 - 本项目Docker镜像构建请参考：[使用Maven插件为SpringBoot应用构建Docker镜像](https://www.macrozheng.com/project/maven_docker_fabric8.html);
 - 本项目在Docker容器下的部署请参考：[mall在Linux环境下的部署（基于Docker容器）](https://www.macrozheng.com/mall/deploy/mall_deploy_docker.html);
 - 本项目使用Docker Compose请参考： [mall在Linux环境下的部署（基于Docker Compose）](https://www.macrozheng.com/mall/deploy/mall_deploy_docker_compose.html);
@@ -197,16 +196,14 @@ mall
 
 > 相关环境部署
 
-- ELK日志收集系统的搭建请参考：[SpringBoot应用整合ELK实现日志收集](https://www.macrozheng.com/mall/reference/mall_tiny_elk.html);
-- 使用MinIO存储文件请参考：[前后端分离项目，如何优雅实现文件存储](https://www.macrozheng.com/mall/technology/minio_use.html);
+- ELK日志收集系统的搭建请参考：[mall项目ELK日志收集解决方案](https://www.macrozheng.com/project/mall_kibana_start.html);
+- 使用MinIO存储文件请参考：[使用MinIO实现文件存储](https://www.macrozheng.com/project/minio_console_start.html);
 - 读写分离解决方案请参考：[你还在代码里做读写分离么，试试这个中间件吧](https://www.macrozheng.com/project/gaea.html);
 - Redis集群解决方案请参考：[Docker环境下秒建Redis集群](https://www.macrozheng.com/blog/redis_cluster.html) 。
 
 ## 公众号
 
-学习不走弯路，关注公众号「**macrozheng**」，回复「**学习路线**」，获取mall项目专属学习路线！
-
-加微信群交流，公众号后台回复「**加群**」即可。
+加微信群交流，关注公众号「**macrozheng**」，回复「**加群**」即可。
 
 ![公众号图片](http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/banner/qrcode_for_macrozheng_258.jpg)
 
